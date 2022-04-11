@@ -1,0 +1,27 @@
+{
+  "name": "ds-frameworks",
+  "version": "1.0.0",
+  "description": "DreamScript Frameworks",
+  "main": "deploy/ds-server.js",
+  "scripts": {
+    "start": "node deploy/ds-server.js",
+    "build": "ds cdirs deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ds-lang/DreamScriptFramework.git"
+  },
+  "keywords": [
+    "dreamscript"
+  ],
+  "author": "JahiR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ds-lang/DreamScriptFramework/issues"
+  },
+  "homepage": "https://github.com/ds-lang/DreamScriptFramework#readme",
+  "dependencies": {
+    "ds-langs": "^0.5.0",
+    "http": "^0.0.1-security"
+  }
+}

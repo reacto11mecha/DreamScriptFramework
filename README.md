@@ -40,7 +40,7 @@ server.put('frameworks', (req,res) => {
 
 // SERVER LISTENING
 server.listen(8080, () => {
-  console.log('Server running on PORT 8080');
+  write('Server running on PORT 8080');
 })
 ```
 
